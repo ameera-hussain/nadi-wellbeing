@@ -66,11 +66,11 @@ export function Testimonials() {
                         {testimonial.title}
                       </h3>
                     </div>
-                    <p className="text-xs sm:text-sm text-[#454545] mb-4 sm:mb-5 flex-1">
+                    <p className="text-xs sm:text-sm text-[#454545] mb-2 sm:mb-3 flex-1">
                       "{testimonial.quote}"
                     </p>
                   </CardContent>
-                  <CardHeader className="flex flex-row items-center gap-2 sm:gap-3 pt-2 sm:pt-3 pb-4 sm:pb-5 px-4 sm:px-5 md:px-6 border-t">
+                  <CardHeader className="flex flex-row items-center gap-2 sm:gap-3 pt-2 sm:pt-3 pb-4 sm:pb-5 px-4 sm:px-5 md:px-6">
                     <Avatar className="h-10 w-10 sm:h-12 sm:w-12">
                       <AvatarImage src={testimonial.image} alt={testimonial.name} />
                       <AvatarFallback className="text-xs sm:text-sm">
