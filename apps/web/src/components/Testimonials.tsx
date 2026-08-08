@@ -78,7 +78,7 @@ export function Testimonials() {
                       </AvatarFallback>
                     </Avatar>
                     <div className="flex flex-col min-w-0">
-                      <CardTitle className="text-xs sm:text-sm truncate">
+                      <CardTitle className="text-xs sm:text-sm truncate text-blue-950">
                         {testimonial.name}
                       </CardTitle>
                       <CardDescription className="text-xs truncate">
