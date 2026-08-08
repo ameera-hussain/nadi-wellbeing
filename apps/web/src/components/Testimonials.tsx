@@ -59,7 +59,7 @@ export function Testimonials() {
           <CarouselContent className="-ml-2 md:-ml-4 py-7">
             {testimonialsData.map((testimonial, index) => (
               <CarouselItem key={index} className="pl-2 md:pl-4 basis-full sm:basis-1/2 lg:basis-1/3">
-                <Card className={`flex flex-col h-full text-left rounded-2xl`}>
+                <Card className={`flex flex-col h-full text-left rounded-2xl bg-white`}>
                   <CardContent className="flex flex-col flex-1 p-4 sm:p-5 md:p-6">
                     <div className="mb-3 sm:mb-4">
                       <h3 className="font-semibold text-sm sm:text-base text-[#2329a5] leading-snug">
