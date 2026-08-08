@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from "react"
+import { useState } from "react"
 import { TwoColumnSection } from "./TwoColumnSection"
 import { SectionTitle } from "@workspace/ui/components/Typography"
 import { useLanguage } from "@/context"
