@@ -144,7 +144,7 @@ export const translations = {
         "Learn about our outreach programs and initiatives aimed at promoting health and wellness in the community.",
     },
     telehealth: {
-      title: "TeleConsultation",
+      title: "Tele-consultation",
       subtitle:
         "Experience the convenience of virtual healthcare with our tele-consultation services, connecting you with healthcare professionals from the comfort of your home.",
       bookingTitle: "How to Book a Tele-consultation",
@@ -319,10 +319,10 @@ export const translations = {
         "Ketahui lebih lanjut mengenai program dan inisiatif jangkauan komuniti kami yang bertujuan mempromosikan kesihatan serta kesejahteraan dalam kalangan masyarakat.",
     },
     telehealth: {
-      title: "TeleKonsultasi",
+      title: "Tele-konsultasi",
       subtitle:
         "Nikmati kemudahan perkhidmatan kesihatan secara maya melalui Tele-konsultasi, yang menghubungkan anda dengan profesional penjagaan kesihatan dari keselesaan rumah anda.",
-      bookingTitle: "Cara Menempah Slot Tele-Konsultasi",
+      bookingTitle: "Cara Menempah Slot Tele-konsultasi",
       steps: [
         {
           title: "Daftar",
