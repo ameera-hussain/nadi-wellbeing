@@ -49,7 +49,7 @@ export const translations = {
           name: "Siti Fatimah Binti Zailan",
           age: 34,
           role: "Professional",
-          image: "/src/assets/testimonials/sitifatimah.png"
+          image: "/assets/testimonials/sitifatimah.png"
         },
         {
           title: "Blood sugar reduced from 11 to 6 mmol/L",
@@ -57,7 +57,7 @@ export const translations = {
           name: "Sopiah Binti Said",
           age: 66,
           role: "Retiree",
-          image: "/src/assets/testimonials/sopiah.png"
+          image: "/assets/testimonials/sopiah.png"
         },
         {
           title: "Lost 12.5kg",
@@ -65,7 +65,7 @@ export const translations = {
           name: "Yasmin Binti Hassan",
           age: 36,
           role: "Webinar participant",
-          image: "/src/assets/testimonials/yasmin.png"
+          image: "/assets/testimonials/yasmin.png"
         },
         {
           title: "Consistent health monitoring",
@@ -73,7 +73,7 @@ export const translations = {
           name: "Inbavalli A/P S. Penkederaman",
           age: 58,
           role: "Health programme participant",
-          image: "/src/assets/testimonials/inbavalli.png"
+          image: "/assets/testimonials/inbavalli.png"
         },
         {
           title: "Successfully lost 32kg in 5 months",
@@ -81,7 +81,7 @@ export const translations = {
           name: "Muhammad Helmy Bin Abdullah",
           age: 28,
           role: "My Inspirasi programme participant",
-          image: "/src/assets/testimonials/helmy.png"
+          image: "/assets/testimonials/helmy.png"
         },
         {
           title: "Reduced cholesterol level with exercise",
@@ -89,7 +89,7 @@ export const translations = {
           name: "Rafiza Binti Muat",
           age: 36,
           role: "Health screening participant",
-          image: "/src/assets/testimonials/rafiza.png"
+          image: "/assets/testimonials/rafiza.png"
         },
         {
           title: "Easy Access to Doctor via Teleconsultation",
@@ -97,7 +97,7 @@ export const translations = {
           name: "Fatin Syafawani Binti Cik Osman",
           age: 33,
           role: "Finance officer",
-          image: "/src/assets/testimonials/fatinshafawani.png"
+          image: "/assets/testimonials/fatinshafawani.png"
         },
         {
           title: "Lost 8 kg and restored blood sugar to normal levels",
@@ -105,7 +105,7 @@ export const translations = {
           name: "Mekalah Devi A/P Munusamy",
           age: 39,
           role: "Health screening participant",
-          image: "/src/assets/testimonials/mekalah.png"
+          image: "/assets/testimonials/mekalah.png"
         }
       ],
       viewPlaylist: "View Playlist",
@@ -224,7 +224,7 @@ export const translations = {
           name: "Siti Fatimah Binti Zailan",
           age: 34,
           role: "Profesional",
-          image: "/src/assets/testimonials/sitifatimah.png"
+          image: "/assets/testimonials/sitifatimah.png"
         },
         {
           title: "Kurangkan gula darah daripada 11 ke 6 mmol/L",
@@ -232,7 +232,7 @@ export const translations = {
           name: "Sopiah Binti Said",
           age: 66,
           role: "Pesara",
-          image: "/src/assets/testimonials/sopiah.png"
+          image: "/assets/testimonials/sopiah.png"
         },
         {
           title: "Hilang 12.5kg",
@@ -240,7 +240,7 @@ export const translations = {
           name: "Yasmin Binti Hassan",
           age: 36,
           role: "Peserta webinar",
-          image: "/src/assets/testimonials/yasmin.png"
+          image: "/assets/testimonials/yasmin.png"
         },
         {
           title: "Pemantauan kesihatan yang konsisten",
@@ -248,7 +248,7 @@ export const translations = {
           name: "Inbavalli A/P S. Penkederaman",
           age: 58,
           role: "Peserta program kesihatan",
-          image: "/src/assets/testimonials/inbavalli.png"
+          image: "/assets/testimonials/inbavalli.png"
         },
         {
           title: "Berjaya kehilangan 32kg dalam 5 bulan",
@@ -256,7 +256,7 @@ export const translations = {
           name: "Muhammad Helmy Bin Abdullah",
           age: 28,
           role: "Peserta program My Inspirasi",
-          image: "/src/assets/testimonials/helmy.png"
+          image: "/assets/testimonials/helmy.png"
         },
         {
           title: "Kurangkan tahap kolesterol dengan senaman",
@@ -264,7 +264,7 @@ export const translations = {
           name: "Rafiza Binti Muat",
           age: 36,
           role: "Peserta saringan kesihatan",
-          image: "/src/assets/testimonials/rafiza.png"
+          image: "/assets/testimonials/rafiza.png"
         },
         {
           title: "Akses Mudah ke Doktor melalui Tele-Konsultasi",
@@ -272,7 +272,7 @@ export const translations = {
           name: "Fatin Syafawani Binti Cik Osman",
           age: 33,
           role: "Pegawai Kewangan",
-          image: "/src/assets/testimonials/fatinshafawani.png"
+          image: "/assets/testimonials/fatinshafawani.png"
         },
         {
           title: "Hilang 8 kg dan pulihkan gula darah ke paras normal",
@@ -280,7 +280,7 @@ export const translations = {
           name: "Mekalah Devi A/P Munusamy",
           age: 39,
           role: "Peserta saringan kesihatan",
-          image: "/src/assets/testimonials/mekalah.png"
+          image: "/assets/testimonials/mekalah.png"
         }
       ],
       viewPlaylist: "Lihat Senarai Main",
