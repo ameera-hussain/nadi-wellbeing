@@ -163,7 +163,7 @@ export function NadiScreening() {
       {/* CTA Section */}
       <section className="flex flex-col items-center gap-8 bg-gradient-to-b from-white to-blue-100 px-4 py-12 text-center sm:gap-10 sm:px-6 md:gap-12 md:py-24 lg:px-8">
         <div className="space-y-5 sm:space-y-6 md:space-y-8">
-          <SectionTitle className="text-[#2329a5] mx-20 md:mx-40 lg:mx-50">
+          <SectionTitle className="text-[#2329a5] mx-8 md:mx-20 lg:mx-40">
             {t("screening.cta")}
           </SectionTitle>
 

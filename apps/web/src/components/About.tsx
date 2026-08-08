@@ -1,7 +1,7 @@
 "use client"
 
 import { useLanguage } from "@/context"
-import { SectionTitle, BodyText } from "@workspace/ui/components/Typography"
+import { SectionTitle, SectionSubtitle } from "@workspace/ui/components/Typography"
 import {
   Carousel,
   CarouselContent,
@@ -51,9 +51,9 @@ export function About() {
       {/* Title and description */}
       <div className="max-w-5xl w-full flex flex-col items-center gap-4 sm:gap-6 md:gap-8">
         <SectionTitle className="text-[#2329a5]">{t("about.title")}</SectionTitle>
-        <BodyText className="whitespace-pre-wrap text-[#454545] max-w-4xl">
+        <SectionSubtitle className="whitespace-pre-wrap text-[#454545] max-w-4xl">
           {t("about.intro")}
-        </BodyText>
+        </SectionSubtitle>
       </div>
 
       {/* Photo carousel */}
