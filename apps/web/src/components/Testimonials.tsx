@@ -44,7 +44,7 @@ export function Testimonials() {
   const testimonialsData = getTranslationValue(language, "healthAdvocacy.testimonialsData") as Testimonial[] || [];
     
   return (
-    <div id="testimonials" className="flex flex-col items-center gap-8 bg-linear-to-b from-blue-100 to-white px-4 py-8 text-center sm:gap-10 sm:px-6 md:gap-16 md:py-16 lg:px-8">
+    <div id="testimonials" className="flex flex-col items-center gap-8 bg-gradient-to-b from-blue-100 to-white px-4 py-8 text-center sm:gap-10 sm:px-6 md:gap-16 md:py-16 lg:px-8">
     <div className="flex w-full max-w-6xl flex-col items-center gap-6 md:gap-8">
         <div className="flex max-w-6xl flex-col items-center gap-2 sm:gap-3">
           <SectionTitle className="text-[#2329a5]">
