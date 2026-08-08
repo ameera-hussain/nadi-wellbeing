@@ -1,19 +1,30 @@
-import { Button } from "@workspace/ui/components/button"
+import { LanguageProvider } from "@/context"
+import { NavMenu } from "@/components/Navbar"
+import { ScrollToTop } from "@/components/ScrollToTop"
+import { Hero } from "@/components/Hero"
+import { About } from "@/components/About"
+import { HealthAdvocacy } from "@/components/HealthAdvocacy"
+import { NadiScreening } from "@/components/NADIScreening"
+import { TeleHealth } from "@/components/TeleHealth"
+import { Testimonials } from "@/components/Testimonials"
+import { Footer } from "@/components/Footer"
 
 export function App() {
   return (
-    <div className="flex min-h-svh p-6">
-      <div className="flex max-w-md min-w-0 flex-col gap-4 text-sm leading-loose">
-        <div>
-          <h1 className="font-medium">Project ready!</h1>
-          <p>You may now add components and start building.</p>
-          <p>We&apos;ve already added the button component for you.</p>
-          <Button className="mt-2">Button</Button>
-        </div>
-        <div className="text-muted-foreground font-mono text-xs">
-          (Press <kbd>d</kbd> to toggle dark mode)
-        </div>
+    <LanguageProvider>
+      <div className="flex min-h-svh flex-col bg-white scroll-smooth">
+        <NavMenu />
+        <main className="flex-1">
+          <Hero />
+          <About />
+          <HealthAdvocacy />
+          <NadiScreening />
+          <TeleHealth />
+          <Testimonials />
+        </main>
+        <Footer />
+        <ScrollToTop />
       </div>
-    </div>
+    </LanguageProvider>
   )
 }

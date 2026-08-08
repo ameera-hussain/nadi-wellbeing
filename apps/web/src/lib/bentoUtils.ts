@@ -1,0 +1,1 @@
+export const bentoShadow = "shadow-[0_2px_4px_rgba(49,46,129,0.06),0_8px_16px_rgba(49,46,129,0.08),0_20px_32px_rgba(49,46,129,0.06)] transition-transform duration-200 hover:-translate-y-1 hover:shadow-[0_4px_8px_rgba(49,46,129,0.08),0_16px_24px_rgba(49,46,129,0.1),0_28px_40px_rgba(49,46,129,0.08)]";

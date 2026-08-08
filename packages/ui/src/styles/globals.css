@@ -3,6 +3,8 @@
 @import "shadcn/tailwind.css";
 @import "@fontsource-variable/noto-sans";
 @import "@fontsource-variable/playfair-display";
+@import "@fontsource-variable/merienda";
+@import "@fontsource/anton";
 
 @custom-variant dark (&:is(.dark *));
 @source "../../../apps/**/*.{ts,tsx}";
@@ -119,6 +121,8 @@
     --color-sidebar-ring: var(--sidebar-ring);
     --font-sans: 'Noto Sans Variable', sans-serif;
     --font-heading: 'Playfair Display Variable', serif;
+    --font-logo: 'Merienda Variable', cursive;
+    --font-logoNadi: 'Anton Variable', sans-serif;
 }
 
 @layer base {
@@ -128,4 +132,14 @@
   body {
     @apply bg-background text-foreground;
     }
+}
+
+@layer components {
+  .bento-card {
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .bento-card:hover {
+    @apply shadow-2xl;
+  }
 }
