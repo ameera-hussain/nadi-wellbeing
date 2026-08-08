@@ -38,7 +38,7 @@ export const translations = {
         "Explore the importance of mental wellbeing, how to recognise potential signs of concern, and practical ways to build emotional resilience and maintain a healthier mind.",
       studioSihat: "Studio Sihat",
       studioSihatDesc:
-        "Visit our Studio Sihat Youtube channel!",
+        "Visit our channel!",
       testimonials: "Testimonials",
       testimonialsDesc:
         "Hear from our community members about their experiences with NADI Wellbeing's health advocacy initiatives and how they have benefited from our programs and resources.",
@@ -147,7 +147,7 @@ export const translations = {
       title: "TeleConsultation",
       subtitle:
         "Experience the convenience of virtual healthcare with our tele-consultation services, connecting you with healthcare professionals from the comfort of your home.",
-      bookingTitle: "How to Book a Teleconsultation",
+      bookingTitle: "How to Book a Tele-consultation",
       steps: [
         {
           title: "Register",
@@ -213,7 +213,7 @@ export const translations = {
         "Belajar kepentingan kesejahteraan mental, cara mengenal pasti tanda-tanda yang perlu diberi perhatian serta langkah praktikal untuk membina ketahanan emosi dan mengekalkan minda yang lebih sihat.",
       studioSihat: "Studio Sihat",
       studioSihatDesc:
-        "Lawati saluran Youtube Studio Sihat kami!",
+        "Lawati saluran kami!",
       testimonials: "Testimoni",
       testimonialsDesc:
         "Dengarkan pengalaman ahli komuniti yang telah menyertai inisiatif advokasi kesihatan NADI Wellbeing dan bagaimana program serta sumber yang disediakan telah memberi manfaat kepada mereka.",
@@ -322,7 +322,7 @@ export const translations = {
       title: "TeleKonsultasi",
       subtitle:
         "Nikmati kemudahan perkhidmatan kesihatan secara maya melalui Tele-konsultasi, yang menghubungkan anda dengan profesional penjagaan kesihatan dari keselesaan rumah anda.",
-      bookingTitle: "Cara Menempah Tele-Konsultasi",
+      bookingTitle: "Cara Menempah Slot Tele-Konsultasi",
       steps: [
         {
           title: "Daftar",

@@ -111,7 +111,7 @@ export function HealthAdvocacy() {
                 </CardTitleTypography>
               )}
               
-              <CardBody className={`text-left grow text-gray-600 ${card.id === 'studioSihat' ? 'font-semibold' : ''}`}>
+              <CardBody className={`text-left grow text-gray-600 ${card.id === 'studioSihat' ? 'font-semibold text-blue-950 text-center' : ''}`}>
                 {card.description}
               </CardBody>
 
