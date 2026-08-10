@@ -18,6 +18,10 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
   return getTranslationArray(language, key)
 }, [language])
 
+React.useEffect(() => {
+    document.title = getTranslation(language, "pageTitle")
+  }, [language])
+
   return (
   <LanguageContext.Provider value={{ language, setLanguage, t, tArray }}>
     {children}
