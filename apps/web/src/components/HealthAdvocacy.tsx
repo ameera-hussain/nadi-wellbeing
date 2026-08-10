@@ -77,7 +77,7 @@ export function HealthAdvocacy() {
     <div id="healthAdvocacy" className="flex flex-col items-center gap-8 bg-gradient-to-b from-blue-100 to-white px-4 py-8 text-center sm:gap-10 sm:px-6 md:gap-16 md:py-16 lg:px-8">
       {/* Header */}
       <div className="flex max-w-4xl flex-col items-center gap-2 sm:gap-3 md:gap-4">
-        <SectionTitle className="text-[#2329a5]">
+        <SectionTitle className="text-[#2329a5] pt-5">
           {t("healthAdvocacy.title")}
         </SectionTitle>
         <SectionSubtitle className="text-[#454545]">

@@ -51,13 +51,13 @@ export function About() {
       {/* Title and description */}
       <div className="max-w-5xl w-full flex flex-col items-center gap-4 sm:gap-6 md:gap-8">
         <SectionTitle className="text-[#2329a5]">{t("about.title")}</SectionTitle>
-        <SectionSubtitle className="whitespace-pre-wrap text-[#454545] max-w-4xl">
+        <SectionSubtitle className="whitespace-pre-wrap text-[#454545] max-w-5xl">
           {t("about.intro")}
         </SectionSubtitle>
       </div>
 
       {/* Photo carousel */}
-      <Carousel opts={{ loop: true }} className="w-full max-w-5xl py-16">
+      <Carousel opts={{ loop: true }} className="w-full max-w-6xl py-16">
         <CarouselContent>
           {photos.map((photo, index) => (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
