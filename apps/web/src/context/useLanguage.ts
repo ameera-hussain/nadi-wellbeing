@@ -5,6 +5,7 @@ interface LanguageContextType {
   language: Language
   setLanguage: (language: Language) => void
   t: (key: string) => string
+  tArray: (key: string) => string[]
 }
 
 export const LanguageContext = React.createContext<LanguageContextType | undefined>(

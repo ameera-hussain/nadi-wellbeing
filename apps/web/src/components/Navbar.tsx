@@ -45,7 +45,7 @@ export function NavMenu() {
           onClick={scrollToTop}
           className="flex items-baseline gap-1 shrink-0 hover:opacity-80 transition-opacity sm:gap-2 cursor-pointer"
         >
-          <span className="text-lg font-black text-[#272163] sm:text-2xl">NADI WELLBEING</span>
+          <span className="text-lg font-black text-[#2239a5] sm:text-2xl">{t("logoName")}</span>
           {/* <span className="font-logo font-extrabold text-lg text-indigo-400 sm:text-3xl">
             Wellbeing
           </span> */}

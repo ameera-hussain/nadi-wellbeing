@@ -1,6 +1,6 @@
 import * as React from "react"
 import type { Language } from "@/data/translations"
-import { getTranslation } from "@/data/translations"
+import { getTranslation, getTranslationArray } from "@/data/translations"
 import { LanguageContext } from "./useLanguage"
 
 interface LanguageProviderProps {
@@ -14,9 +14,13 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
     return getTranslation(language, key)
   }, [language])
 
+  const tArray = React.useCallback((key: string) => {
+  return getTranslationArray(language, key)
+}, [language])
+
   return (
-    <LanguageContext.Provider value={{ language, setLanguage, t }}>
-      {children}
-    </LanguageContext.Provider>
-  )
+  <LanguageContext.Provider value={{ language, setLanguage, t, tArray }}>
+    {children}
+  </LanguageContext.Provider>
+)
 }

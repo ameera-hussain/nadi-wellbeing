@@ -20,6 +20,7 @@ interface AdvocacyCard {
 
 export function HealthAdvocacy() {
   const { t } = useLanguage()
+  const { tArray } = useLanguage()
 
   const cards: AdvocacyCard[] = [
     {
@@ -80,7 +81,9 @@ export function HealthAdvocacy() {
           {t("healthAdvocacy.title")}
         </SectionTitle>
         <SectionSubtitle className="text-[#454545]">
-          {t("healthAdvocacy.subtitle")}
+         {tArray("healthAdvocacy.subtitle").map((line, index) => (
+            <p key={index} className="pt-5">{line}</p>
+          ))}
         </SectionSubtitle>
       </div>
 

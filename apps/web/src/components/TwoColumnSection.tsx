@@ -24,6 +24,7 @@ export function TwoColumnSection({
   sectionId,
 }: TwoColumnSectionProps) {
   const { t } = useLanguage();
+  const { tArray } = useLanguage();
 
   const isImageLeft = imagePosition === "left";
 
@@ -34,7 +35,11 @@ export function TwoColumnSection({
           {/* Left Column - Text Content */}
           <div className="flex flex-col justify-center space-y-4 md:space-y-6">
             {titleKey && <SectionTitle className="text-[#2329a5]">{t(titleKey)}</SectionTitle>}
-            <SectionSubtitle className="text-[#454545]">{t(subtitleKey)}</SectionSubtitle>
+            <SectionSubtitle className="text-[#454545]">
+              {Array.isArray(subtitleKey) ? subtitleKey : tArray(subtitleKey).map((line: string, index: number) => (
+                <p key={index} className="mb-4">{line}</p>
+              ))}
+            </SectionSubtitle>
             {children}
           </div>
 

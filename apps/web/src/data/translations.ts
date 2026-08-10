@@ -2,6 +2,7 @@ export type Language = "EN" | "BM";
 
 export const translations = {
   EN: {
+    logoName: "NADI Wellbeing",
     navigation: {
       healthAdvocacy: "Health Advocacy",
       screening: "Screening at NADI",
@@ -10,17 +11,21 @@ export const translations = {
     },
     hero: {
       title: "NADI Wellbeing",
-      subtitle:
-        "Empowering NADI communities to take charge of their own health and focus on self-care and not 'sick-care'",
+      subtitle: [
+        "The main objective of NADI Wellbeing is to encourage the public to be health-conscious, focusing on prevention rather than treatment.",
+        "This initiative supports the national aspiration, specifically the 15-year roadmap of the Health White Paper launched in 2023, which focuses on the shift towards 'Healthcare, not Sickcare'.",
+      ],
     },
     about: {
       title: "About NADI Wellbeing",
-      intro: "NADI Wellbeing brings essential healthcare closer to communities, especially for people in rural and underserved areas. Through NADI centres, the initiative helps people access health screenings, medical consultations and reliable health information without the added burden of travel and out-of-pocket costs. By empowering local NADI managers as health champions, the programme encourages communities to take a more proactive role in their health and wellbeing. Through initiatives such as Studio Sihat, NADI Wellbeing is helping make health knowledge more accessible while building healthier, more informed communities across Malaysia.",
+      intro: "NADI Wellbeing is a digital health initiative that leverages the National Information Dissemination Centre (NADI) network to bring health education, health screenings, and access to medical services closer to the community. Supported by technology, NADI empowers citizens to better understand their health status, monitor their health metrics, and take appropriate action regarding their own well-being." 
     },
     healthAdvocacy: {
       title: "Health Advocacy",
-      subtitle:
-        "Explore our health advocacy initiatives, including wellness programs, educational resources, and community outreach efforts to promote holistic health and wellbeing.",
+      subtitle: [
+        "This health advocacy and awareness initiative focuses on community education regarding healthy lifestyles, disease prevention, and wellness practices. The program leverages Studio Sihat, a digital platform that shares health-related content via podcasts, live webinars, workouts, and health tips.",
+        "Explore the list of Studio Sihat videos by topic:",
+      ],
       weightManagement: "Weight Management",
       weightManagementDesc:
         "Explore practical approaches to achieving and maintaining a healthy weight through balanced nutrition, regular physical activity, and sustainable lifestyle habits.",
@@ -114,13 +119,15 @@ export const translations = {
     screening: {
       title: "NADI Screening",
       subtitle:
-        "NADI Screening is a comprehensive health assessment programme designed to identify potential health risks and provide personalised recommendations for maintaining optimal wellbeing.",
+        "Through this initiative, NADI staff are trained and devices are equipped at NADI to enable proactive early screening and chronic disease monitoring, before the condition of NADI members in the community becomes critical. The devices provided at NADI include:",
       screeningTypes: {
-        bloodPressure: "Blood Pressure Monitoring",
-        glucose: "Blood Glucose Testing",
-        bmi: "BMI (Body Mass Index) Assessment",
-        heart: "Heart Rate Monitoring",
+        bloodPressure: "Blood pressure monitors",
+        glucose: "Blood glucose monitors",
+        bmi: "BMI measurement devices",
+        digitalHealth: "Digital Health Platform",
       },
+      subtitleCont:
+        "This health screening service is free for all NADI members.",
       communityCentres: "Nadi Centres",
       screeningsConducted: "Screenings Conducted",
       medicalConsultations: "Medical Consultations",
@@ -145,9 +152,11 @@ export const translations = {
     },
     telehealth: {
       title: "Tele-consultation",
-      subtitle:
-        "Experience the convenience of virtual healthcare with our tele-consultation services, connecting you with healthcare professionals from the comfort of your home.",
-      bookingTitle: "How to Book a Tele-consultation",
+      subtitle: [
+        "Access to medical care is made easier for the NADI community through a dedicated digital health platform for NADI members, integrated with the NADI E-System. This enables NADI members to conveniently access consultations with doctors, regardless of where they are located.",
+        "This service helps bridge gaps in healthcare access, particularly for communities in rural and remote areas, while reducing the financial burden associated with travel and logistics, ultimately saving both time and cost."
+      ],
+      bookingTitle: "How to Book a Tele-consultation Appointment",
       steps: [
         {
           title: "Register",
@@ -177,6 +186,7 @@ export const translations = {
     },
   },
   BM: {
+    logoName: "NADI Kesejahteraan Kendiri",
     navigation: {
       healthAdvocacy: "Kesedaran Kesihatan",
       screening: "Saringan di NADI",
@@ -185,17 +195,20 @@ export const translations = {
     },
     hero: {
       title: "NADI Kesejahteraan Kendiri",
-      subtitle:
-        "Memperkasakan komuniti NADI untuk mengambil tanggungjawab terhadap kesihatan diri dengan memberi tumpuan kepada penjagaan kendiri dan pencegahan penyakit, bukan sekadar mendapatkan rawatan apabila sakit.",
+      subtitle: [
+        "Objektif utama NADI Kesejahteraan Kendiri adalah untuk  menggalakkan rakyat peduli sihat dengan fokus kepada pencegahan dan bukan rawatan.",
+        "Inisiatif ini menyokong aspirasi negara iaitu roadmap 15 tahun Kertas Putih Kesihatan yang dilancarkan pada tahun 2023 yang memberi fokus kepada anjakan \"Healthcare, not Sickcare\".",
+      ],
     },
     about: {
       title: "Mengenai NADI Kesejahteraan Kendiri",
-      intro: "NADI Kesihatan Kendiri membawa perkhidmatan penjagaan kesihatan lebih dekat kepada komuniti, khususnya bagi mereka yang tinggal di kawasan luar bandar dan kurang mendapat akses kepada perkhidmatan kesihatan. Melalui pusat-pusat NADI, inisiatif ini membantu masyarakat mendapatkan saringan kesihatan, konsultasi perubatan dan maklumat kesihatan yang boleh dipercayai tanpa beban perjalanan dan kos yang perlu ditanggung sendiri. Dengan memperkasakan pengurus NADI sebagai juara kesihatan, program ini menggalakkan masyarakat untuk mengambil peranan yang lebih proaktif dalam menjaga kesihatan dan kesejahteraan diri. Melalui inisiatif seperti Studio Sihat, NADI Kesihatan Kendiri membantu menjadikan pengetahuan kesihatan lebih mudah diakses, di samping membina komuniti yang lebih sihat dan berpengetahuan di seluruh Malaysia.",
-    },
+      intro: "NADI Kesejahteraan Kendiri merupakan inisiatif kesihatan digital yang memanfaatkan rangkaian Pusat Sebaran Maklumat Nasional (NADI) untuk membawa ilmu kesihatan, saringan kesihatan dan akses kepada perkhidmatan perubatan lebih dekat kepada komuniti. Dengan sokongan teknologi, NADI memperkasa rakyat untuk lebih mengenali status kesihatan, memantau bacaan kesihatan dan mengambil tindakan yang sewajarnya terhadap kesihatan mereka sendiri. "   },
     healthAdvocacy: {
       title: "Kesedaran Kesihatan",
-      subtitle:
-        "Terokai pelbagai inisiatif advokasi kesihatan kami yang merangkumi program kesejahteraan, sumber pendidikan serta aktiviti jangkauan komuniti bagi menggalakkan amalan hidup sihat dan kesejahteraan menyeluruh.",
+      subtitle: [
+        "Inisiatif advokasi dan kesedaran kesihatan ini memberi fokus kepada pendidikan komuniti mengenai gaya hidup sihat, pencegahan penyakit, dan amalan kesejahteraan. Program ini memanfaatkan Studio Sihat, sebuah platform digital yang berkongsi kandungan berkaitan kesihatan melalui: podcast, live webinar, senaman dan tips kesihatan.", 
+        "Terokai senarai video Studio Sihat mengikut topik:",
+      ],
       weightManagement: "Pengurusan Berat Badan",
       weightManagementDesc:
         "Kenalpasti pendekatan praktikal untuk mencapai dan mengekalkan berat badan yang sihat melalui pemakanan seimbang, aktiviti fizikal secara berkala dan amalan gaya hidup yang mampan.",
@@ -289,13 +302,15 @@ export const translations = {
     screening: {
       title: "Saringan di NADI",
       subtitle:
-        "Saringan di NADI merupakan program penilaian kesihatan menyeluruh yang direka untuk mengenal pasti risiko kesihatan serta memberikan cadangan yang diperibadikan bagi membantu anda mengekalkan tahap kesihatan yang optimum.",
+        "Melalui inisiatif ini, petugas NADI dilatih dan alat peranti disediakan di NADI untuk membolehkan saringan awal dan pemantauan penyakit kronik dilakukan secara proaktif di NADI sebelum keadaan ahli NADI di kalangan komuniti menjadi kritikal. Antara alat peranti yang disediakan di NADI:",
       screeningTypes: {
-        bloodPressure: "Pemantauan Tekanan Darah",
-        glucose: "Ujian Glukosa Darah",
-        bmi: "Penilaian Indeks Jisim Badan (BMI)",
-        heart: "Pemantauan Kadar Jantung",
+        bloodPressure: "Peranti tahap darah tinggi",
+        glucose: "Peranti tahap glukosa darah",
+        bmi: "Peranti BMI",
+        digitalHealth: "Platform Digital Kesihatan",
       },
+      subtitleCont:
+        "Perkhidmatan saringan kesihatan ini adalah percuma untuk semua ahli NADI.",
       communityCentres: "Pusat NADI",
       screeningsConducted: "Saringan Dilaksanakan",
       medicalConsultations: "Konsultasi Perubatan",
@@ -320,8 +335,10 @@ export const translations = {
     },
     telehealth: {
       title: "Tele-konsultasi",
-      subtitle:
-        "Nikmati kemudahan perkhidmatan kesihatan secara maya melalui Tele-konsultasi, yang menghubungkan anda dengan profesional penjagaan kesihatan dari keselesaan rumah anda.",
+      subtitle: [
+        "Akses perubatan menjadi lebih mudah untuk komuniti NADI dengan adanya platform kesihatan digital khas untuk ahli NADI yang telah diintegrasi dengan sistem NADI E-System. Ini memudahkan ahli NADI untuk mendapatkan konsultasi dengan doktor di mana jua mereka berada.",
+        "Manfaat ini merapatkan jurang perkhidmatan terutama yang berada di pendalaman, disamping dapat mengurangkan beban kewangan komuniti melalui pengurangan kos perjalanan dan logistik seterusnya menjimatkan masa.",
+      ],
       bookingTitle: "Cara Menempah Slot Tele-konsultasi",
       steps: [
         {
@@ -350,8 +367,15 @@ export const translations = {
     footer: {
       copyright: "© 2026 NADI Wellbeing. Hak Cipta Terpelihara.",
     },
-  },
+  }
 };
+
+export function getTranslationArray(language: Language, key: string): string[] {
+  const value = getTranslationValue(language, key)
+  if (Array.isArray(value)) return value as string[]
+  if (typeof value === "string") return [value]
+  return []
+}
 
 export function getTranslation(language: Language, key: string): string {
   const keys = key.split(".");

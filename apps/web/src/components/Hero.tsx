@@ -4,6 +4,7 @@ import familyImage from "@/assets/family5.png"
 
 export function Hero() {
   const { t } = useLanguage()
+  const { tArray } = useLanguage()
 
   return (
     <div 
@@ -16,7 +17,11 @@ export function Hero() {
     {t("hero.title")}
   </HeroTitle>
   <SectionSubtitle className="text-[#454545] text-lg sm:text-xl md:text-2xl drop-shadow-md">
-    {t("hero.subtitle")}
+    <div>
+    {tArray("hero.subtitle").map((line: string, index: number) => (
+      <p key={index} className="mb-4">{line}</p>
+    ))}
+  </div>
   </SectionSubtitle>
 </div>
     </div>

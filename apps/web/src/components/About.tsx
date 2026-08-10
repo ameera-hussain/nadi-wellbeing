@@ -61,7 +61,7 @@ export function About() {
         <CarouselContent>
           {photos.map((photo, index) => (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-              <div className="h-64 overflow-hidden rounded-lg shadow-md">
+              <div className="h-80 overflow-hidden rounded-lg shadow-md">
                 <img
                   src={photo}
                   alt={`NADI Wellbeing event ${index + 1}`}

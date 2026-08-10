@@ -118,9 +118,12 @@ export function NadiScreening() {
             </li>
             <li className="flex items-start gap-3 text-[#454545] sm:text-lg md:text-xl">
               <span className="text-[#2329a5] font-bold">•</span>
-              <span>{t("screening.screeningTypes.heart")}</span>
+              <span>{t("screening.screeningTypes.digitalHealth")}</span>
             </li>
           </ul>
+          <div className="flex items-start pt-5 text-[#454545] sm:text-lg md:text-xl">
+            {t("screening.subtitleCont")}
+            </div>
         </div>
       </TwoColumnSection>
 
