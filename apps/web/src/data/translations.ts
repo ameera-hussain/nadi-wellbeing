@@ -2,7 +2,7 @@ export type Language = "EN" | "BM";
 
 export const translations = {
   EN: {
-    pageTitle: "Wellbeing",
+    pageTitle: "NADI Wellbeing",
     logoName: "NADI Wellbeing",
     navigation: {
       healthAdvocacy: "Health Advocacy",
@@ -187,7 +187,7 @@ export const translations = {
     },
   },
   BM: {
-    pageTitle: "Kesejahteraan Kendiri",
+    pageTitle: "NADI Kesejahteraan Kendiri",
     logoName: "NADI Kesejahteraan Kendiri",
     navigation: {
       healthAdvocacy: "Kesedaran Kesihatan",
