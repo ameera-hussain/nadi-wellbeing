@@ -229,11 +229,11 @@ export const translations = {
         "Lawati saluran kami!",
       testimonials: "Testimoni",
       testimonialsDesc:
-        "Dengarkan pengalaman ahli komuniti yang telah menyertai inisiatif advokasi kesihatan NADI Wellbeing dan bagaimana program serta sumber yang disediakan telah memberi manfaat kepada mereka.",
+        "Dengarkan pengalaman ahli komuniti yang telah menyertai inisiatif advokasi kesihatan NADI Kesejahteraan Kendiri dan bagaimana program serta sumber yang disediakan telah memberi manfaat kepada mereka.",
       testimonialsData: [
         {
           title: "Kurangkan BMI daripada 34 ke 23",
-          quote: "Dengan sokongan NADI Wellbeing, saya telah mengurangkan BMI saya daripada 34 ke 23 dan telah kehilangan lebih daripada 20kg. Studio Sihat memberikan saya pengetahuan, dan komuniti memberikan saya tujuan untuk terus berjaya dan menggalakkan orang lain untuk bersama saya.",
+          quote: "Dengan sokongan NADI Kesejahteraan Kendiri, saya telah mengurangkan BMI saya daripada 34 ke 23 dan telah kehilangan lebih daripada 20kg. Studio Sihat memberikan saya pengetahuan, dan komuniti memberikan saya tujuan untuk terus berjaya dan menggalakkan orang lain untuk bersama saya.",
           name: "Siti Fatimah Binti Zailan",
           age: 34,
           role: "Profesional",
@@ -241,7 +241,7 @@ export const translations = {
         },
         {
           title: "Kurangkan gula darah daripada 11 ke 6 mmol/L",
-          quote: "Gula darah saya berada pada 11 mmol/l dan saya dapat merasakan ia menjejaskan segalanya seperti tenaga saya, penglihatan saya, kehidupan saya. Perkhidmatan NADI Wellbeing membantu saya mengawal melalui diet yang betul dan pemantauan yang konsisten. Hari ini saya berada pada 6 mmol/L dan berasa seperti diri saya sendiri lagi.",
+          quote: "Gula darah saya berada pada 11 mmol/l dan saya dapat merasakan ia menjejaskan segalanya seperti tenaga saya, penglihatan saya, kehidupan saya. Perkhidmatan NADI Kesejahteraan Kendiri membantu saya mengawal melalui diet yang betul dan pemantauan yang konsisten. Hari ini saya berada pada 6 mmol/L dan berasa seperti diri saya sendiri lagi.",
           name: "Sopiah Binti Said",
           age: 66,
           role: "Pesara",
@@ -249,7 +249,7 @@ export const translations = {
         },
         {
           title: "Hilang 12.5kg",
-          quote: "Saya tidak pernah fikir kehilangan berat badan adalah mungkin untuk saya sehingga saya menghadiri webinar kesihatan Studio Sihat. Panduan yang saya terima membantu saya kehilangan 12.5kg pada kadar yang realistik dan mampan. Ia bukan penyelesaian cepat, ia adalah perubahan gaya hidup.",
+          quote: "Saya tidak pernah fikir kehilangan berat badan adalah mungkin untuk saya sehingga saya menghadiri webinar kesihatan Studio Sihat yang dianjurkan oleh NADI Kesejahteraan Kendiri. Panduan yang saya terima membantu saya kehilangan 12.5kg pada kadar yang realistik dan mampan. Ia bukan penyelesaian cepat, ia adalah perubahan gaya hidup.",
           name: "Yasmin Binti Hassan",
           age: 36,
           role: "Peserta webinar",
@@ -257,7 +257,7 @@ export const translations = {
         },
         {
           title: "Pemantauan kesihatan yang konsisten",
-          quote: "NADI Wellbeing mengubah cara saya berfikir tentang kesihatan saya. Saringan tetap, tabiat makan yang lebih baik, dan latihan yang konsisten telah menjadi sebahagian daripada kehidupan saya. Mengetahui hasil saya dijejak dan disambungkan memberi saya ketenangan pikiran yang sebenar.",
+          quote: "NADI Kesejahteraan Kendiri mengubah cara saya berfikir tentang kesihatan saya. Saringan tetap, tabiat makan yang lebih baik, dan latihan yang konsisten telah menjadi sebahagian daripada kehidupan saya. Mengetahui hasil saya dijejak dan disambungkan memberi saya ketenangan pikiran yang sebenar.",
           name: "Inbavalli A/P S. Penkederaman",
           age: 58,
           role: "Peserta program kesihatan",
@@ -365,7 +365,7 @@ export const translations = {
         "Hubungi kami untuk sebarang pertanyaan, sokongan atau maklum balas. Kami sedia membantu anda.",
     },
     footer: {
-      copyright: "© 2026 NADI Wellbeing. Hak Cipta Terpelihara.",
+      copyright: "© 2026 NADI Kesejahteraan Kendiri. Hak Cipta Terpelihara.",
     },
   }
 };
