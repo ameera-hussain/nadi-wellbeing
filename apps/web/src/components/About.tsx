@@ -29,6 +29,13 @@ import NadiEvent17 from "@/assets/aboutPhotos/NadiEvent17.jpg"
 import NadiEvent18 from "@/assets/aboutPhotos/NadiEvent18.jpg"
 import NadiEvent19 from "@/assets/aboutPhotos/NadiEvent19.jpg"
 import NadiEvent20 from "@/assets/aboutPhotos/NadiEvent20.jpg"
+import NadiEvent21 from "@/assets/aboutPhotos/NadiEvent21.jpg"
+import NadiEvent22 from "@/assets/aboutPhotos/NadiEvent22.jpg"
+import NadiEvent23 from "@/assets/aboutPhotos/NadiEvent23.jpg"
+import NadiEvent24 from "@/assets/aboutPhotos/NadiEvent24.jpg"
+import NadiEvent25 from "@/assets/aboutPhotos/NadiEvent25.jpg"
+import NadiEvent26 from "@/assets/aboutPhotos/NadiEvent26.jpg"
+import NadiEvent27 from "@/assets/aboutPhotos/NadiEvent27.jpg"
 
 export function About() {
   const { t } = useLanguage()
@@ -53,6 +60,13 @@ export function About() {
     NadiEvent18,
     NadiEvent19,
     NadiEvent20,
+    NadiEvent21,
+    NadiEvent22,
+    NadiEvent23,
+    NadiEvent24,
+    NadiEvent25,
+    NadiEvent26,
+    NadiEvent27,
   ]
 
   return (
@@ -77,7 +91,7 @@ export function About() {
                 <img
                   src={photo}
                   alt={`NADI Wellbeing event ${index + 1}`}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-105"
                 />
               </div>
             </CarouselItem>
