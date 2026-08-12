@@ -54,7 +54,8 @@ export const translations = {
           quote: "With NADI Wellbeing's support, I reduced my BMI from 34 to 23 and lost over 20kg. Studio Sihat gave me the knowledge, and the community gave me the purpose to keep going and to encourage others to join me.",
           name: "Siti Fatimah Binti Zailan",
           age: 34,
-          role: "Professional",
+          role: "Manager",
+          location: "Kampung Mensudut Lama, Segamat, Johor",
           image: "/assets/testimonials/sitifatimah.png"
         },
         {
@@ -63,6 +64,7 @@ export const translations = {
           name: "Sopiah Binti Said",
           age: 66,
           role: "Retiree",
+          location: "Felda Tenggaroh, Mersing, Johor",
           image: "/assets/testimonials/sopiah.png"
         },
         {
@@ -71,6 +73,7 @@ export const translations = {
           name: "Yasmin Binti Hassan",
           age: 36,
           role: "Webinar participant",
+          location: "Kampung Pinang, Kota Samarahan, Sarawak",
           image: "/assets/testimonials/yasmin.png"
         },
         {
@@ -79,6 +82,7 @@ export const translations = {
           name: "Inbavalli A/P S. Penkederaman",
           age: 58,
           role: "Health programme participant",
+          location: "Chuah, Port Dickson, Negeri Sembilan",
           image: "/assets/testimonials/inbavalli.png"
         },
         {
@@ -87,6 +91,7 @@ export const translations = {
           name: "Muhammad Helmy Bin Abdullah",
           age: 28,
           role: "My Inspirasi programme participant",
+          location: "Kampung Gunung Hilir, Alor Setar, Kedah",
           image: "/assets/testimonials/helmy.png"
         },
         {
@@ -95,6 +100,7 @@ export const translations = {
           name: "Rafiza Binti Muat",
           age: 36,
           role: "Health screening participant",
+          location: "Pekan Asajaya, Asajaya, Sarawak",
           image: "/assets/testimonials/rafiza.png"
         },
         {
@@ -103,6 +109,7 @@ export const translations = {
           name: "Fatin Syafawani Binti Cik Osman",
           age: 33,
           role: "Finance officer",
+          location: "Sungai Tua, Batu Caves, Selangor",
           image: "/assets/testimonials/fatinshafawani.png"
         },
         {
@@ -111,6 +118,7 @@ export const translations = {
           name: "Mekalah Devi A/P Munusamy",
           age: 39,
           role: "Health screening participant",
+          location: "Taman Sri Pajam, Mantin, Negeri Sembilan",
           image: "/assets/testimonials/mekalah.png"
         }
       ],
@@ -238,7 +246,8 @@ export const translations = {
           quote: "Dengan sokongan NADI Kesejahteraan Kendiri, saya telah mengurangkan BMI saya daripada 34 ke 23 dan telah kehilangan lebih daripada 20kg. Studio Sihat memberikan saya pengetahuan, dan komuniti memberikan saya tujuan untuk terus berjaya dan menggalakkan orang lain untuk bersama saya.",
           name: "Siti Fatimah Binti Zailan",
           age: 34,
-          role: "Profesional",
+          role: "Pengurus",
+          location: "Kampung Mensudut Lama, Segamat, Johor",
           image: "/assets/testimonials/sitifatimah.png"
         },
         {
@@ -247,6 +256,7 @@ export const translations = {
           name: "Sopiah Binti Said",
           age: 66,
           role: "Pesara",
+          location: "Felda Tenggaroh, Mersing, Johor",
           image: "/assets/testimonials/sopiah.png"
         },
         {
@@ -255,6 +265,7 @@ export const translations = {
           name: "Yasmin Binti Hassan",
           age: 36,
           role: "Peserta webinar",
+          location: "Kampung Pinang, Kota Samarahan, Sarawak",
           image: "/assets/testimonials/yasmin.png"
         },
         {
@@ -263,6 +274,7 @@ export const translations = {
           name: "Inbavalli A/P S. Penkederaman",
           age: 58,
           role: "Peserta program kesihatan",
+          location: "Chuah, Port Dickson, Negeri Sembilan",
           image: "/assets/testimonials/inbavalli.png"
         },
         {
@@ -271,6 +283,7 @@ export const translations = {
           name: "Muhammad Helmy Bin Abdullah",
           age: 28,
           role: "Peserta program My Inspirasi",
+          location: "Kampung Gunung Hilir, Alor Setar, Kedah",
           image: "/assets/testimonials/helmy.png"
         },
         {
@@ -279,6 +292,7 @@ export const translations = {
           name: "Rafiza Binti Muat",
           age: 36,
           role: "Peserta saringan kesihatan",
+          location: "Pekan Asajaya, Asajaya, Sarawak",
           image: "/assets/testimonials/rafiza.png"
         },
         {
@@ -287,6 +301,7 @@ export const translations = {
           name: "Fatin Syafawani Binti Cik Osman",
           age: 33,
           role: "Pegawai Kewangan",
+          location: "Sungai Tua, Batu Caves, Selangor",
           image: "/assets/testimonials/fatinshafawani.png"
         },
         {
@@ -295,6 +310,7 @@ export const translations = {
           name: "Mekalah Devi A/P Munusamy",
           age: 39,
           role: "Peserta saringan kesihatan",
+          location: "Taman Sri Pajam, Mantin, Negeri Sembilan",
           image: "/assets/testimonials/mekalah.png"
         }
       ],

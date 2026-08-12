@@ -10,19 +10,25 @@ import {
   CarouselNext,
 } from "@workspace/ui/components/carousel"
 import NadiEvent1 from "@/assets/aboutPhotos/NadiEvent1.jpg"
-import NadiEvent2 from "@/assets/aboutPhotos/NadiEvent2.jpg"
+import NadiEvent2 from "@/assets/aboutPhotos/NadiEvent2.png"
 import NadiEvent3 from "@/assets/aboutPhotos/NadiEvent3.jpg"
 import NadiEvent4 from "@/assets/aboutPhotos/NadiEvent4.jpg"
 import NadiEvent5 from "@/assets/aboutPhotos/NadiEvent5.jpg"
-import NadiEvent6 from "@/assets/aboutPhotos/NadiEvent6.jpg"
+import NadiEvent6 from "@/assets/aboutPhotos/NadiEvent6.png"
 import NadiEvent7 from "@/assets/aboutPhotos/NadiEvent7.jpg"
-import NadiEvent8 from "@/assets/aboutPhotos/NadiEvent8.jpg"
+import NadiEvent8 from "@/assets/aboutPhotos/NadiEvent8.png"
 import NadiEvent9 from "@/assets/aboutPhotos/NadiEvent9.jpg"
-import NadiEvent10 from "@/assets/aboutPhotos/NadiEvent10.jpg"
+import NadiEvent10 from "@/assets/aboutPhotos/NadiEvent10.png"
 import NadiEvent11 from "@/assets/aboutPhotos/NadiEvent11.jpg"
+import NadiEvent12 from "@/assets/aboutPhotos/NadiEvent12.png"
 import NadiEvent13 from "@/assets/aboutPhotos/NadiEvent13.jpg"
-import NadiEvent14 from "@/assets/aboutPhotos/NadiEvent14.jpg"
+import NadiEvent14 from "@/assets/aboutPhotos/NadiEvent14.png"
 import NadiEvent15 from "@/assets/aboutPhotos/NadiEvent15.jpg"
+import NadiEvent16 from "@/assets/aboutPhotos/NadiEvent16.jpg"
+import NadiEvent17 from "@/assets/aboutPhotos/NadiEvent17.jpg"
+import NadiEvent18 from "@/assets/aboutPhotos/NadiEvent18.jpg"
+import NadiEvent19 from "@/assets/aboutPhotos/NadiEvent19.jpg"
+import NadiEvent20 from "@/assets/aboutPhotos/NadiEvent20.jpg"
 
 export function About() {
   const { t } = useLanguage()
@@ -41,6 +47,12 @@ export function About() {
     NadiEvent13,
     NadiEvent14,
     NadiEvent15,
+    NadiEvent12,
+    NadiEvent16,
+    NadiEvent17,
+    NadiEvent18,
+    NadiEvent19,
+    NadiEvent20,
   ]
 
   return (

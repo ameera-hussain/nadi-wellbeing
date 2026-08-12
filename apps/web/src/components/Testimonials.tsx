@@ -27,6 +27,7 @@ type Testimonial = {
   name: string;
   age: number;
   role: string;
+  location: string;
   image?: string;
 };
 
@@ -83,6 +84,7 @@ export function Testimonials() {
                       </CardTitle>
                       <CardDescription className="text-xs truncate">
                         {testimonial.age} • {testimonial.role}
+                        <p>{testimonial.location}</p>
                       </CardDescription>
                     </div>
                   </CardHeader>

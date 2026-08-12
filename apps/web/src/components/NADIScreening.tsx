@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { SectionTitle, SectionSubtitle } from "@workspace/ui/components/Typography"
 import { useLanguage } from "@/context"
 import { TwoColumnSection } from "./TwoColumnSection"
-import CommunitiesHero from "@/assets/CommunitiesHero.png"
+import SaringanNadi from "@/assets/SaringanNadi.png"
 
 type StatCardProps = {
   end: number;
@@ -98,7 +98,7 @@ export function NadiScreening() {
       <TwoColumnSection
         titleKey="screening.title"
         subtitleKey="screening.subtitle"
-        imageSource={CommunitiesHero}
+        imageSource={SaringanNadi}
         imageAlt="NADI Screening"
         containerClassName="bg-gradient-to-b from-white to-blue-100"
       >
