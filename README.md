@@ -1,4 +1,4 @@
-This is the Nadi Wellbeing microsite.
+This is the repository for the Nadi Wellbeing microsite.
 
 ## Development
 
